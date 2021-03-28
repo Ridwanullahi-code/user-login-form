@@ -1,0 +1,97 @@
+body {
+    margin: 0%;
+    background-image: url("https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: auto;
+    max-height: 70px;
+    background-color: black;
+
+
+}
+nav {
+background-color:darkcyan;
+border: 1px solid darkcyan;
+max-width:auto;
+height:65px;
+border-radius: 10px;
+}
+ul li {
+    list-style: none;
+    
+}
+ul li a {
+    color: rgba(255, 250, 240, 0.63);
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    margin: 10px;
+    margin-left: 0%;
+}
+.navbar-content input {
+    border: 1px solid  darkcyan;
+    padding: 8px;
+    border-radius: 8px;
+    background-color:darkslategray;
+    color:rgba(255, 250, 240, 0.63);
+    position: relative;
+    float:right;
+    position: relative;
+    bottom: 8px;
+    margin: 10px;
+    
+}
+
+.navbar-content input:hover{
+    background-color:darkcyan;
+transition: all 0.3s ease ;
+}
+ul li a:hover{
+    color: white;
+    transition: all 0.3s ease;
+}
+.heading {
+    text-align: center;
+font-size: 11px;
+color:teal;
+}
+footer .footer  {
+    max-width: auto;
+    height:170px ;
+    border: 1px solid white;
+    margin-top: 80%;
+    background-color: whitesmoke;
+}
+footer .footer  {
+    max-width: auto;
+    height:280px ;
+    border: 1px solid white;
+    margin-top: 30%;
+    background-color: darkcyan;
+    color: whitesmoke;
+    
+}
+ footer .footer div{
+     max-width: auto;
+     max-height:350px ;
+     float: left;
+     margin-left: 130px;
+     font-weight: lighter;
+     font-family: sans-serif;
+     font-size: 15px;
+ }
+ footer .footer div input {
+     border: 1px solid white;
+     padding:7px;
+     border-radius: 12px;
+ }
+ footer .footer .search input:last-child{
+     margin-left: 20px;
+     background-color: darkslategrey;
+     border: 1px solid darkslategray;
+     width: 100px;
+     color:white ;
+
+ }
